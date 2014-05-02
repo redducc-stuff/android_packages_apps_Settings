@@ -38,6 +38,14 @@
         <attr name="android:horizontalSpacing" />
     </declare-styleable>
 
+    <!-- Interval seekbar -->
+    <declare-styleable name="IntervalSeekBar">
+        <attr name="minI" format="float" />
+        <attr name="maxI" format="float" />
+        <attr name="defaultValuePure" format="float" />
+        <attr name="digits" format="integer" />
+    </declare-styleable>
+
     <!-- SelfRemovingPreference -->
     <declare-styleable name="lineage_SelfRemovingPreference">
         <attr name="requiresPackage" format="string" />
