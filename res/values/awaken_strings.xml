@@ -15,6 +15,13 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- About device screen, build date -->
+    <string name="build_date">Build date</string>
+
+    <!-- About device screen, Awaken version -->
+    <string name="awaken_version">Awaken version</string>
+    <string name="awaken_version_default">Unknown</string>
+
     <!-- Awaken support -->
     <string name="active_edge_app_select_title">Select app</string>
     <string name="active_edge_activity_select_title">Select activity</string>
