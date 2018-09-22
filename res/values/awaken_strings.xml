@@ -173,6 +173,9 @@
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s today</string>
 
+    <!-- Density category -->
+    <string name="density_category">Density options</string>
+
     <!-- Description for require screen on to auth toggle shown in fingerprint enrollment dialog once enrollment is completed.
          Only for devices that support checking proximity prior to allowing fingerprint unlock. -->
     <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Touch the sensor to unlock, even when the screen is off. Proximity sensor prevents accidental unlocking.</string>
