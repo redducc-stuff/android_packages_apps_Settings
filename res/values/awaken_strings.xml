@@ -23,6 +23,10 @@
     <string name="awaken_version_default">Unknown</string>
     <string name="awaken_uri" translatable="false">https://github.com/Project-Awaken</string>
 
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Rooted debugging</string>
+    <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
+
     <!-- Awaken maintainer -->
     <string name="maintainer">Maintainer</string>
     <string name="awaken_maintainer" translatable="false">Unofficial Maintainer</string>
