@@ -54,6 +54,10 @@
     <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
     <string name="custom_seekbar_default_value_is_set">Default value is set</string>
 
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Control visibility of status bar icons</string>
+
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <string name="show_dev_countdown_awaken">{count, plural,
       =1      {You are now # step away from enabling development settings.}
