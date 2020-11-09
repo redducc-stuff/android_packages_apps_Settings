@@ -21,6 +21,7 @@
     <!-- About device screen, Awaken version -->
     <string name="awaken_version">Awaken version</string>
     <string name="awaken_version_default">Unknown</string>
+    <string name="awaken_uri" translatable="false">https://github.com/Project-Awaken</string>
 
     <!-- Awaken support -->
     <string name="active_edge_app_select_title">Select app</string>
