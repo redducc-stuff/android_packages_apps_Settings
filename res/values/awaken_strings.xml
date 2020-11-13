@@ -94,4 +94,8 @@
     <string name="navbar_category">Navigation bar</string>
     <string name="show_navbar_gesture_bar_title">Gesture indicator</string>
     <string name="show_navbar_gesture_bar_summary">Show gesture indicator at the bottom of the screen</string>
+
+    <!-- Quick Settings quick pulldown -->
+    <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
+    <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
 </resources>
