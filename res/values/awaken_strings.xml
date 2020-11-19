@@ -340,6 +340,9 @@
     <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
     <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
 
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
+
     <!-- Refresh rate -->
     <string name="refresh_rate_title">Refresh rate</string>
     <string name="refresh_rate_summary_vrr_off">%d Hz</string>
