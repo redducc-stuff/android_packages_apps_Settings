@@ -353,6 +353,10 @@
     <string name="high_touch_sensitivity_title">High touch sensitivity</string>
     <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
 
+    <!-- General -->
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="longpress_to_clipboard">Long-press to copy</string>
+
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Pill length</string>
     <string name="short_label">Short</string>
