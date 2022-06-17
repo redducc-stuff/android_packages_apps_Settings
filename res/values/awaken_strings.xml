@@ -299,6 +299,10 @@
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
 
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+
     <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
     <string name="assisted_gps">Use assisted GPS</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
