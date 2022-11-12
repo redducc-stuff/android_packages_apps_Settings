@@ -36,6 +36,19 @@
         <attr name="android:horizontalSpacing" />
     </declare-styleable>
 
+    <!-- SelfRemovingPreference -->
+    <declare-styleable name="lineage_SelfRemovingPreference">
+        <attr name="requiresPackage" format="string" />
+        <attr name="requiresFeature" format="string" />
+        <attr name="requiresConfig" format="string" />
+        <attr name="requiresConfigMask" format="integer" />
+        <attr name="requiresProperty" format="string" />
+        <attr name="requiresAction" format="string" />
+        <attr name="requiresOwner" format="boolean" />
+        <attr name="replacesKey" format="string" />
+        <attr name="minSummaryLines" format="integer" />
+    </declare-styleable>
+
     <!-- Value to pass to callback when restore button is pressed -->
     <declare-styleable name="ColorPreference">
         <attr name="defaultColorValue" format="integer" />
