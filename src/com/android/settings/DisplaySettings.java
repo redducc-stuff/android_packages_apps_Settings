@@ -24,7 +24,6 @@ import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.development.OverlayCategoryPreferenceController;
 import com.android.settings.display.BrightnessLevelPreferenceController;
 import com.android.settings.display.CameraGesturePreferenceController;
-import com.android.settings.display.EnableBlursPreferenceController;
 import com.android.settings.display.LiftToWakePreferenceController;
 import com.android.settings.display.PocketJudgePreferenceController;
 import com.android.settings.display.ShowOperatorNamePreferenceController;
@@ -95,7 +94,6 @@ public class DisplaySettings extends DashboardFragment {
                 "android.theme.customization.adaptive_icon_shape"));
         controllers.add(new OverlayCategoryPreferenceController(context,
                 "android.theme.customization.icon_pack"));
-        controllers.add(new EnableBlursPreferenceController(context));
         return controllers;
     }
 
