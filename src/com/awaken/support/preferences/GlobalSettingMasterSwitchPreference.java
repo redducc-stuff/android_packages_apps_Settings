@@ -19,9 +19,12 @@ package com.awaken.support.preferences;
 import android.content.Context;
 import android.util.AttributeSet;
 
+import androidx.core.content.res.TypedArrayUtils;
+
+import com.android.settingslib.PrimarySwitchPreference;
 import com.awaken.support.preferences.GlobalSettingsStore;
 
-public class GlobalSettingMasterSwitchPreference extends MasterSwitchPreference {
+public class GlobalSettingMasterSwitchPreference extends PrimarySwitchPreference {
 
     public GlobalSettingMasterSwitchPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
@@ -29,13 +32,13 @@ public class GlobalSettingMasterSwitchPreference extends MasterSwitchPreference 
     }
 
     public GlobalSettingMasterSwitchPreference(Context context, AttributeSet attrs) {
-        super(context, attrs);
-        setPreferenceDataStore(new GlobalSettingsStore(context.getContentResolver()));
+        this(context, attrs, TypedArrayUtils.getAttr(context,
+                com.android.settingslib.R.attr.preferenceStyle,
+                android.R.attr.preferenceStyle));
     }
 
     public GlobalSettingMasterSwitchPreference(Context context) {
-        super(context);
-        setPreferenceDataStore(new GlobalSettingsStore(context.getContentResolver()));
+        super(context, null);
     }
 
 }
