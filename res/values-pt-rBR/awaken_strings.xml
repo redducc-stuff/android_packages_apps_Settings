@@ -77,25 +77,25 @@
     <!-- Awaken maintainer -->
     <string name="maintainer">Mantenedor</string>
     <!-- Awaken support -->
-    <string name="active_edge_app_select_title">Select app</string>
-    <string name="active_edge_activity_select_title">Select activity</string>
-    <string name="edit_hint">Value</string>
-    <string name="seek_value_edit_label">Set value</string>
-    <string name="ok">OK</string>
+    <string name="active_edge_app_select_title">Selecione o app</string>
+    <string name="active_edge_activity_select_title">Selecionar atividade</string>
+    <string name="edit_hint">Valor</string>
+    <string name="seek_value_edit_label">Definir valor</string>
+    <string name="ok">Aceitar</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="dialog_color_picker">Seletor de cores</string>
+    <string name="press_color_to_apply">Toque na cor abaixo para aplicar</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
+    <string name="set">Definir</string>
     <string name="color_default">Padrão</string>
     <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_value">Valor: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Padrão</string>
-    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
-    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+    <string name="custom_seekbar_default_value_to_set">Valor padrão: <xliff:g id ="v">%s</xliff:g>\nToque longo para definir</string>
+    <string name="custom_seekbar_default_value_is_set">Valor padrão definido</string>
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Desbloquear automaticamente se você inserir um PIN correto. Isso é um pouco menos seguro do que tocar em Enter para confirmar.</string>
     <!-- Back Gestures -->
@@ -104,31 +104,31 @@
     <string name="gesture_back_deadzone_label">Zona inativa</string>
     <string name="back_sensitivity_dialog_message_cust">\nUse a primeira e segunda barra de pesquisa para configurar a sensibilidade de deslizar para trás, a última barra de busca para definir uma área morta no topo da tela, onde o deslize não pode ser acionado, para evitar conflitos com gestos no aplicativo.</string>
     <!-- Battery Info: Technology -->
-    <string name="battery_technology">Technology</string>
+    <string name="battery_technology">\"Tecnologia\"</string>
     <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Health -->
-    <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
+    <string name="battery_health">Saúde</string>
+    <string name="battery_health_good">Boa</string>
+    <string name="battery_health_overheat">Superaquecimento</string>
+    <string name="battery_health_dead">Morto</string>
+    <string name="battery_health_over_voltage">Sobretensão</string>
+    <string name="battery_health_unspecified_failure">Falha não especificada</string>
+    <string name="battery_health_cold">Frio</string>
     <string name="battery_health_unknown">Desconhecido</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature">Temperatura</string>
     <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage">Voltagem</string>
     <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Charge Counter -->
     <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity">Capacidade original</string>
     <string name="battery_design_capacity_summary">%1$d mAh</string>
     <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity">Capacidade máxima</string>
     <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
     <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery light -->
@@ -214,15 +214,18 @@
     <string name="screen_lock_settings_title">Configurações de segurança de bloqueio de tela</string>
     <string name="screen_lock_settings_summary">Personalize a segurança do bloqueio de tela</string>
     <!-- Show clipboard overlay -->
-    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
-    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <string name="show_clipboard_overlay_title">Mostrar sobreposição de texto</string>
+    <string name="show_clipboard_overlay_summary">Exibe uma janela no canto inferior esquerdo da tela quando algum texto for copiado para área de transferência</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s hoje</string>
     <!-- Density category -->
     <string name="density_category">Opções de densidade</string>
     <!-- Description for require screen on to auth toggle shown in fingerprint enrollment dialog once enrollment is completed.
          Only for devices that support checking proximity prior to allowing fingerprint unlock. -->
-    <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Touch the sensor to unlock, even when the screen is off. Proximity sensor prevents accidental unlocking.</string>
+    <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Toque no sensor para desbloquear, mesmo quando a tela estiver desligada. Sensor de proximidade evita desbloqueio acidental.</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Toque duplo</string>
     <string name="doze_double_tap_title">Tocar duas vezes na tela para verificar o smartphone</string>
@@ -290,8 +293,8 @@
     <string name="color_mode_balance_blue">Intensidade do azul</string>
     <string name="keywords_color_balance">cor, equilíbrio de cores, correção de cores, vermelho, verde, azul, LiveDisplay</string>
     <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">Tap to sleep</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
+    <string name="status_bar_double_tap_to_sleep_title">Toque para dormir</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Toque duas vezes na barra de status ou na tela de bloqueio para desligar a tela</string>
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">Aumentar taxa de resposta ao toque</string>
     <string name="high_touch_polling_rate_summary">Aumentar taxa de resposta ao tocar na tela</string>
@@ -325,20 +328,20 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Permitir que clientes usem VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes de hotspot usem este dispositivo\u2019 para conexões VPN de alta velocidade</string>
-    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotspot</string>
-    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
-    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
-    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
-    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
-    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
-    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
-    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Rede oculta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">O nome do seu ponto de acesso não aparecerá na lista de redes wi-fi disponíveis.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Nunca desativar o ponto de acesso</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_client_manager_summary">Listar e gerenciar dispositivos conectados ao ponto de acesso</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Listar dispositivos conectados ao ponto de acesso</string>
+    <string name="wifi_hotspot_client_limit_title">Limite de dispositivos conectados</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositivos bloqueados</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Bloquear dispositivo</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Esta ação desconectará \"<xliff:g id="device_name">%1$s</xliff:g>\" deste dispositivo e o adicionará à lista de bloqueio</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Desbloquear dispositivo</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">O dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" será capaz de se conectar ao ponto de acesso</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Nenhum cliente disponível. Dispositivos conectados e bloqueados aparecerão quando disponíveis.</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Plataforma</string>
@@ -489,18 +492,18 @@
     <string name="quick_settings_vibrate_title">Vibrar ao tocar tela</string>
     <string name="quick_settings_vibrate_summary">Vibrar ao tocar as configurações rápidas</string>
     <!-- Quick Settings quick pulldown -->
-    <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
-    <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
+    <string name="quick_settings_quick_pull_down_title">Deslize rápido para baixo</string>
+    <string name="quick_settings_quick_pull_down_summary">Puxe a barra de status do lado direito para expandir as configurações rápidas</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Informações de rede</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_title">Taxa de atualização</string>
     <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
-    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
-    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
-    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
-    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptável)</string>
+    <string name="refresh_rate_vrr_title">Taxa de atualização adaptável</string>
+    <string name="refresh_rate_vrr_summary">Reduza automaticamente a taxa de atualização quando a tela estiver ociosa para economizar energia. Pode causar cintilação ou mudança de cor em determinadas telas</string>
+    <string name="refresh_rate_footer">Uma taxa de atualização mais alta torna a tela mais suave, mas aumenta o consumo de energia</string>
+    <string name="keywords_refresh_rate">atualização, taxa, suave, pico, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <!-- Statusbar clock -->
     <string name="status_bar_clock_position_title">Posição do relógio</string>
     <string name="status_bar_clock_position_left">Esquerda</string>
@@ -515,18 +518,18 @@
     <string name="three_finger_gesture">Deslize para capturar a tela</string>
     <string name="three_finger_gesture_summary">Deslize para baixo com três dedos para capturar tela</string>
     <!-- Timeout entries -->
-    <string name="timeout_summary_never">Never</string>
-    <string name="timeout_summary_15secs">15 seconds</string>
+    <string name="timeout_summary_never">Nunca</string>
+    <string name="timeout_summary_15secs">15 segundos</string>
     <string name="timeout_summary_30secs">30 segundos</string>
     <string name="timeout_summary_1min">1 minuto</string>
     <string name="timeout_summary_2mins">2 minutos</string>
     <string name="timeout_summary_5mins">5 minutos</string>
     <string name="timeout_summary_10mins">10 minutos</string>
     <string name="timeout_summary_30mins">30 minutos</string>
-    <string name="timeout_summary_1hour">1 hour</string>
-    <string name="timeout_summary_2hours">2 hours</string>
-    <string name="timeout_summary_4hours">4 hours</string>
-    <string name="timeout_summary_8hours">8 hours</string>
+    <string name="timeout_summary_1hour">1 hora</string>
+    <string name="timeout_summary_2hours">2 horas</string>
+    <string name="timeout_summary_4hours">4 horas</string>
+    <string name="timeout_summary_8hours">8 horas</string>
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Lanterna rápida</string>
     <string name="power_button_torch_summary">Quando a tela estiver desligada, segure o botão liga/desliga para ativar a lanterna</string>
@@ -535,8 +538,8 @@
     <string name="touchscreen_hovering_summary">Permite que você flutue o dedo na tela como um mouse em navegadores web, desktops remotos, etc</string>
     <!-- Vibration patterns -->
     <string name="notification_vibration_pattern_title">Padrão de vibração da notificação</string>
-    <string name="ring_vibration_pattern_title">Ring vibration pattern</string>
-    <string name="pattern_default">Device default</string>
+    <string name="ring_vibration_pattern_title">Padrão de vibração do toque</string>
+    <string name="pattern_default">Padrão do aparelho</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Controle de reprodução</string>
     <string name="volume_button_music_control_summary">Quando a tela estiver desligada, pressione e segure as teclas de volume para pular faixas de música</string>
